@@ -4,7 +4,7 @@ A bilingual **English ⇄ Persian 3D dictionary** that runs entirely in the brow
 
 No build step, no dependencies, no backend. Just HTML, CSS and vanilla JavaScript.
 
-**Live demo:** https://claude.ai/artifact/K9exhYQgZhHexr1fLyZt2b
+👉 **[enter the live demo!](https://amiralidlb93-hash.github.io/-/)**
 
 ## Features
 
