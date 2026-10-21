@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>واژه‌گردون – دیکشنری سه‌بعدی</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;800&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button class="theme" id="theme" aria-label="تغییر پوسته">☾ / ☀</button>
+<header>
+  <h1>واژه<span>گردون</span></h1>
+  <p>واژه‌ها را بچرخانید، روی کارت بزنید تا معنی‌اش را ببینید.</p>
+  <div class="search home"><input id="q" type="search" placeholder="جستجو: serendipity یا «شادی»…" aria-label="جستجوی واژه" autocomplete="off"></div>
+</header>
+
+<nav class="tabs" id="tabs"><button class="tab on" data-t="home">🌀 چرخ واژه‌ها</button><button class="tab" data-t="quiz">🎯 آزمون ۱۰تایی</button><button class="tab" data-t="cards">🃏 فلش‌کارت</button><button class="tab" data-t="memory">🧠 بازی حافظه</button></nav>
+<section id="game" hidden></section>
+<div class="stage home" id="stage" tabindex="0" aria-label="چرخ واژه‌ها؛ با کلیدهای جهت بچرخانید و با Enter کارت را بچرخانید">
+  <div class="scene" id="scene"><div class="ring" id="ring"></div></div>
+</div>
+
+<div class="bar home">
+  <button id="next" aria-label="واژه بعدی">‹ بعدی</button>
+  <span class="count" id="count"></span>
+  <button id="prev" aria-label="واژه قبلی">قبلی ›</button>
+</div>
+<p class="hint home">کشیدن با موس یا انگشت · کلیدهای ← → · Enter برای برگرداندن کارت</p>
+
+<script src="script.js"></script>
+</body>
+</html>
