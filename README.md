@@ -4,7 +4,7 @@ A bilingual **English ⇄ Persian 3D dictionary** that runs entirely in the brow
 
 No build step, no dependencies, no backend. Just HTML, CSS and vanilla JavaScript.
 
-👉 **[enter the live demo!](https://amiralidlb93-hash.github.io/-/)**
+👉 **[enter the live demo!](https://amiralidlb93-hash.github.io/vajegardon/)**
 
 ## Features
 
